@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Interactiva</title>
+</head>
+    <style>
+        body{
+            margin: 30px auto;
+            padding: 20px;
+            background: black;
+            color: #333;
+            
+            .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #208d20;
+            text-align: center;
+            margin: 10px;
+        }
+        .console-output {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        .info-box {
+            background: #f0f7ff;
+            border-left: 2px solid #208d20;
+            font-size: 16px;
+            padding: 10px;
+            margin: 40px 0 10px 0;
+            border-radius: 10px;
+        }
+    }
+    </style>
+<body>
+    <div class="container" style="text-align: center;">
+        <h1>★ Calculadora Interactiva ★</h1>
+        <div class="info-box">
+            <p><strong>Instrucciones</strong> <br>Elige una operación (1-4) y luego ingresa dos números.</p>
+        </div>
+        <div class="console-output" id="console">
+            <p>Abrir la consola del navegador (f12) para ver los resultado.</p>
+        </div>
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
